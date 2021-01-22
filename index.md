@@ -3,13 +3,9 @@ layout: default
 title: Main page
 ---
 
-# BIO3092 GitHub Pages Template
+# BIO3092 Variant Calling Workshop
 
-This is a simplified template for the BIO3092 GitHub pages.
-
-In this directory are all the necessary config files (\_includes \_layouts \_config.yaml public/ singlepage.html), pages that will include the workshop information (index.md, 01_walkthrough.md) and images directory (images/) necessary for constructing a GitHub ages site.
-
-Users can use the navigation panel on the left to navigate this walkthrough or click the links below.
+In this workshop, you are going to compute variant sites from your genome alignments, as well as create a small Perl script to count the number of SNPs and reference sites are in your VCFs. To recap, you will be studying 12 isolates belonging to fungal pathogen C. gattii. You should have 12 sorted BAM files from Workshop 2 alignments. If not, you will find brief notes at the start of this workshop on how to remake them. 
 
 <ol>
 {% include toc.html %}
