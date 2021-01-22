@@ -1,1 +1,9 @@
 theme: jekyll-theme-cayman
+baseurl: /BIO3092-Variant-calling-workshop
+defaults:
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: "default"
